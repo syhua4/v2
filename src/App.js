@@ -6,10 +6,11 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import "./App.css";
 import SideNav from "@/components/side-nav";
+import Loading from "./components/loading";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/v2">
       <div className="App">
         <Container fluid>
           <Row>
@@ -22,7 +23,7 @@ function App() {
               <SideNav display={true} />
             </Col>
             <Col xs={11} md={10} id="page-content-wrapper">
-              <Suspense fallback={<div>loading</div>}>
+              <Suspense fallback={<Loading />}>
                 {renderRoutes(routes)}
               </Suspense>
             </Col>

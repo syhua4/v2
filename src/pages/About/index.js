@@ -19,7 +19,7 @@ export default memo(function About() {
   const futureTech = ["TypeScript", "NextJs", "Gatsby"];
   const toggleClick = () => {
     const resume = window.open(
-      "https://syhua4.github.io/MyPortfolio_v1.0/ShirleyHuangResume_v2.pdf",
+      "https://syhua4.github.io/v2/ShirleyHuangResume.pdf",
       "_blank"
     );
     resume.focus();

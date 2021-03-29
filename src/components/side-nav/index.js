@@ -33,7 +33,7 @@ export default memo(function SideNav() {
       setShowNav(false);
     } else {
       const resume = window.open(
-        "https://syhua4.github.io/MyPortfolio_v1.0/ShirleyHuangResume_v2.pdf",
+        "https://syhua4.github.io/v2/ShirleyHuangResume.pdf",
         "_blank"
       );
       resume.focus();
@@ -52,9 +52,12 @@ export default memo(function SideNav() {
     <SideNavWrapper className="col-12 " showNav={showNav}>
       <div className="side-nav flex-column justify-content-between d-none d-md-flex">
         <h1 className="nav-brand">
-          <a href="/" className="nav-brand-img">
+          <div
+            className="nav-brand-img"
+            onClick={(e) => history.push("/")}
+          >
             Shirley Huang
-          </a>
+          </div>
         </h1>
         <Nav
           className="sidebar flex-wrap"
@@ -105,9 +108,12 @@ export default memo(function SideNav() {
       <div className="collaspse-menu">
         <div className="side-nav flex-column justify-content-between">
           <h1 className="nav-brand">
-            <a href="/" className="nav-brand-img">
+            <div
+              className="nav-brand-img"
+              onClick={(e) => history.push("/")}
+            >
               Shirley Huang
-            </a>
+            </div>
           </h1>
           <Nav
             className="sidebar flex-wrap"
