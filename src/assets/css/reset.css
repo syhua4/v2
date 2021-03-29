@@ -1,0 +1,68 @@
+@import "~normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+:root {
+  --gradient1: #8860d0;
+  --gradient2: #5ab9ea;
+  --gradient3: #d2eaf3;
+}
+
+/* reset */
+a {
+  color: #333;
+}
+a:hover,
+a:active {
+  color: #333;
+  text-decoration: none;
+}
+
+input,
+a {
+  outline: none;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+}
+h2 {
+  font-size: 24px;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+  margin-bottom: 0;
+}
+
+/* global style */
+.container-fluid {
+  padding: 0 !important;
+}
+.header-underlined {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 40px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.header-underlined::before,
+.header-underlined::after {
+  content: "";
+  display: inline-block;
+  width: 120px;
+  height: 5px;
+  background-color: var(--gradient3);
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.header-underlined::after {
+  z-index: 2;
+  width: 40px;
+  background-color: var(--gradient2);
+}
