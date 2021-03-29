@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/v2/static/css/main.5fcc66ab.chunk.css",
+    "main.js": "/v2/static/js/main.6b302763.chunk.js",
+    "main.js.map": "/v2/static/js/main.6b302763.chunk.js.map",
+    "runtime-main.js": "/v2/static/js/runtime-main.21c21a7d.js",
+    "runtime-main.js.map": "/v2/static/js/runtime-main.21c21a7d.js.map",
+    "static/css/2.2a0d9e2d.chunk.css": "/v2/static/css/2.2a0d9e2d.chunk.css",
+    "static/js/2.9500fb41.chunk.js": "/v2/static/js/2.9500fb41.chunk.js",
+    "static/js/2.9500fb41.chunk.js.map": "/v2/static/js/2.9500fb41.chunk.js.map",
+    "static/js/3.5b0e5c4a.chunk.js": "/v2/static/js/3.5b0e5c4a.chunk.js",
+    "static/js/3.5b0e5c4a.chunk.js.map": "/v2/static/js/3.5b0e5c4a.chunk.js.map",
+    "static/js/4.5ca76cfd.chunk.js": "/v2/static/js/4.5ca76cfd.chunk.js",
+    "static/js/4.5ca76cfd.chunk.js.map": "/v2/static/js/4.5ca76cfd.chunk.js.map",
+    "static/js/5.78bef5a7.chunk.js": "/v2/static/js/5.78bef5a7.chunk.js",
+    "static/js/5.78bef5a7.chunk.js.map": "/v2/static/js/5.78bef5a7.chunk.js.map",
+    "static/js/6.006ca3f4.chunk.js": "/v2/static/js/6.006ca3f4.chunk.js",
+    "static/js/6.006ca3f4.chunk.js.map": "/v2/static/js/6.006ca3f4.chunk.js.map",
+    "static/js/7.894130f3.chunk.js": "/v2/static/js/7.894130f3.chunk.js",
+    "static/js/7.894130f3.chunk.js.map": "/v2/static/js/7.894130f3.chunk.js.map",
+    "index.html": "/v2/index.html",
+    "static/css/2.2a0d9e2d.chunk.css.map": "/v2/static/css/2.2a0d9e2d.chunk.css.map",
+    "static/css/main.5fcc66ab.chunk.css.map": "/v2/static/css/main.5fcc66ab.chunk.css.map",
+    "static/js/2.9500fb41.chunk.js.LICENSE.txt": "/v2/static/js/2.9500fb41.chunk.js.LICENSE.txt",
+    "static/media/bushlandscouts_mockup.038ff4ef.jpg": "/v2/static/media/bushlandscouts_mockup.038ff4ef.jpg",
+    "static/media/coffee.a5187e40.png": "/v2/static/media/coffee.a5187e40.png",
+    "static/media/greeting.1e391538.png": "/v2/static/media/greeting.1e391538.png",
+    "static/media/pearmusic_mockup.7cdff86b.jpg": "/v2/static/media/pearmusic_mockup.7cdff86b.jpg",
+    "static/media/peartv_mockup.95dd5fed.png": "/v2/static/media/peartv_mockup.95dd5fed.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21c21a7d.js",
+    "static/css/2.2a0d9e2d.chunk.css",
+    "static/js/2.9500fb41.chunk.js",
+    "static/css/main.5fcc66ab.chunk.css",
+    "static/js/main.6b302763.chunk.js"
+  ]
+}
